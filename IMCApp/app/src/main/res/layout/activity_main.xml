@@ -10,16 +10,54 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Peso :"
-        android:textSize="36sp"
-        android:layout_marginBottom="15dp"
-        />
+        android:textColor='#fff'
+        android:text="Peso:"
+        android:padding="8dp"
+        android:layout_marginTop="24dp"
+        android:background="@color/colorPrimary"/>
     <EditText
+        android:id="@+id/edit_peso"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="numberDecimal"
-        android:textSize="36sp"
+        android:textSize="24sp"
         android:textColor="#6e0081"
-        android:hint="Digite seu peso"
+        android:hint="Digite seu peso, ex: 70.5"
+        android:layout_marginBottom="45dp"
         />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Altura:"
+        android:padding="8dp"
+        android:textColor='#fff'
+        android:background="@color/colorPrimary"/>
+    <EditText
+        android:id="@+id/edit_altura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:textSize="24sp"
+        android:textColor="#6e0081"
+        android:hint="Digite sua Altura, ex: 1.70"
+        android:layout_marginBottom="45dp"/>
+
+    <Button
+        android:id="@+id/button_calcular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calcular"
+        android:textColor='#FFFFFF'
+        android:background="@color/colorPrimary"
+        />
+
+    <TextView
+        android:id="@+id/text_resultado"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="22"
+        android:textSize="50dp"
+        android:textStyle="italic|bold"
+        android:layout_gravity="center"
+        android:gravity="center_vertical"/>
 </LinearLayout>
