@@ -10,51 +10,53 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textColor='#fff'
-        android:text="Peso:"
+        android:textColor="@color/colorLabel"
+        android:text="@string/str_peso"
         android:padding="8dp"
         android:layout_marginTop="24dp"
-        android:background="@color/colorPrimary"/>
+        android:background="@color/colorPrimaryDark"
+        android:textStyle="bold"/>
     <EditText
         android:id="@+id/edit_peso"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="numberDecimal"
         android:textSize="24sp"
-        android:textColor="#6e0081"
-        android:hint="Digite seu peso, ex: 70.5"
+        android:textColor="@color/colorText"
+        android:hint="@string/hint_peso"
         android:layout_marginBottom="45dp"
         />
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Altura:"
+        android:text="@string/str_altura"
         android:padding="8dp"
-        android:textColor='#fff'
-        android:background="@color/colorPrimary"/>
+        android:textColor="@color/colorLabel"
+        android:background="@color/colorPrimaryDark"
+        android:textStyle="bold"/>
     <EditText
         android:id="@+id/edit_altura"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="numberDecimal"
         android:textSize="24sp"
-        android:textColor="#6e0081"
-        android:hint="Digite sua Altura, ex: 1.70"
+        android:textColor="@color/colorText"
+        android:hint="@string/hint_altura"
         android:layout_marginBottom="45dp"/>
 
     <Button
         android:id="@+id/button_calcular"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Calcular"
-        android:textColor='#FFFFFF'
-        android:background="@color/colorPrimary"
+        android:text="@string/str_buttonCalcular"
+        android:textColor="@color/colorLabel"
+        android:background="@color/colorPrimaryDark"
         />
 
     <TextView
         android:id="@+id/text_resultado"
         android:layout_width="wrap_content"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:text="22"
         android:textSize="50dp"
         android:textStyle="italic|bold"

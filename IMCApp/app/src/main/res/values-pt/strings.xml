@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Calculadora IMC</string>
+
+    <string name="str_peso">Peso</string>
+    <string name="str_altura">Altura</string>
+    <string name="hint_peso">Digite seu peso, ex: 70.5</string>
+    <string name="hint_altura">Digite sua Altura, ex: 1.70</string>
+    <string name="button_calcular">Calcular</string>
+
+    <string name="erro_peso">Insira seu Peso!</string>
+    <string name="erro_altura">Insira sua Altura!</string>
+</resources>

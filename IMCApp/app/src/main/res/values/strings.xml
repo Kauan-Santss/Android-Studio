@@ -1,3 +1,12 @@
 <resources>
-    <string name="app_name">IMC App</string>
+    <string name="app_name">BMI Calculator</string>
+
+    <string name="str_peso">Weight</string>
+    <string name="str_altura">Height</string>
+    <string name="hint_peso">Enter your weight, ex: 70.5</string>
+    <string name="hint_altura">Enter your Height, ex: 1.70</string>
+    <string name="str_buttonCalcular">Calculate</string>
+
+    <string name="erro_peso">Enter your weight!</string>
+    <string name="erro_altura">Enter your Height!</string>
 </resources>
